@@ -24,10 +24,6 @@ p {
   flex-direction: column;
 }
 
-h2 {
-  border: 3px solid red;
-}
-
 .box-container {
   display: flex;
   justify-content: space-evenly;
