@@ -1,23 +1,77 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* font-family: "Roboto", sans-serif;       essa fonte é meio padrãozinha*/
 /* font-family: "Rajdhani", sans-serif;     essa fonte é mais magrinha*/
-</style>
-
-* {
+</style>* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container-default {
+body {
+  padding: 0%;
+  margin: 0%;
+  background: rgb(18, 18, 18);
+}
+
+main {
+  border: solid 3px red;
+  height: 75%;
   width: 100%;
-  min-height: 20vh;
-  display: flex;
+}
+
+
+
+.container-top {
   justify-content: center;
   align-items: center;
+  background-color: rgb(24, 24, 28);
+  border: solid 1px rgb(24, 24, 28);
+  height: 71px;
+  width: 100%
 }
+
+#store {
+  position: absolute;
+  color: white;
+  font-size: 20px;
+  left: 140px;
+  bottom: 860px;
+  font-family: Inter, sans-serif;
+
+
+}
+
+
+#iconetop {
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  background-image: -moz-linear-gradient(color rgb(18, 18, 18));
+  display: flex;
+}
+
+input {
+  position: absolute;
+  display: flex;
+  left: 200px;
+  bottom: 787px;
+  border: solid 3px red;
+  border-radius: 10px;
+  height: 25px;
+  width: 180px;
+  background-color: rgb(32, 32, 32);
+}
+
+#lupa {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: rgb(18, 18, 18);
+  opacity: ;
+}
+
 
 p {
   font-size: 22px;
@@ -26,9 +80,10 @@ p {
 .container-banner-1 {
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 100px;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .box-container {
@@ -46,13 +101,13 @@ p {
   width: 400px;
   height: 50px;
   margin-bottom: 20px;
+
 }
 
 
 .image {
   width: 100px;
   height: 100px;
-
 }
 
 
@@ -82,7 +137,7 @@ footer {
 
 .footerLogosHere:hover {
   background-color: blue;
-  transform: scale(1.2); 
+  transform: scale(1.2);
 }
 
 #goToTop {
@@ -90,7 +145,7 @@ footer {
   align-items: flex-start;
   position: relative;
   bottom: 3px;
-} 
+}
 
 #goToTop:hover {
   transform: scale(1.2);
@@ -111,7 +166,7 @@ footer {
 
 #recursosPai a {
   text-decoration: none;
-  color: rgb(223, 223, 223);  
+  color: rgb(223, 223, 223);
   transition: color 0.3s;
 }
 
@@ -131,7 +186,7 @@ footer {
   font-size: 14px;
 }
 
-.recursosBloquinhos li{
+.recursosBloquinhos li {
   padding: 4px 20px;
   margin-left: -20px;
 }
@@ -139,4 +194,5 @@ footer {
 #recursosPai a:hover {
   color: rgb(45, 112, 255);
 }
+
 /*----------------------------FIM DA PARTE FOOTER-------------------------------------------------------------------------------*/
