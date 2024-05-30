@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  border: solid 3px red;
+
   height: 75%;
   width: 100%;
 }
@@ -72,6 +72,37 @@ input {
   opacity: ;
 }
 
+#download {
+  position: absolute;
+  left: 1782px;
+  top: 1px;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background-color: rgb(38, 187, 255);
+  font-family: roboto, sans-serif;
+  cursor: pointer;
+  color: rgb(27, 32, 65);
+  border: solid rgb(38, 187, 255) 8px
+}
+
+#suporte {
+  position: absolute;
+  left: 220px;
+  top: 13px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  color: rgb(152, 152, 153);
+}
+
+#distribuir {
+  position: absolute;
+  left: 292px;
+  top: 13px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  color: rgb(152, 152, 153);
+}
 
 p {
   font-size: 22px;
