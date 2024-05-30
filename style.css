@@ -16,7 +16,7 @@ body {
 }
 
 main {
-  border: solid 3px red;
+
   height: 75%;
   width: 100%;
 }
@@ -39,7 +39,7 @@ main {
   left: 140px;
   bottom: 860px;
   font-family: Inter, sans-serif;
-
+  
 
 }
 
@@ -72,6 +72,37 @@ input {
   opacity: ;
 }
 
+#download {
+  position: absolute;
+  left: 1782px;
+  top: 1px;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background-color: rgb(38, 187, 255);
+  font-family: roboto, sans-serif;
+  cursor: pointer;
+  color: rgb(27, 32, 65);
+  border: solid rgb(38, 187, 255) 8px
+}
+
+#suporte {
+  position: absolute;
+  left: 220px;
+  top: 13px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  color: rgb(152, 152, 153);
+}
+
+#distribuir {
+  position: absolute;
+  left: 292px;
+  top: 13px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  color: rgb(152, 152, 153);
+}
 
 p {
   font-size: 22px;
@@ -83,7 +114,7 @@ p {
   padding: 100px;
   justify-content: center;
   flex-direction: column;
-
+  
 }
 
 .box-container {
@@ -91,7 +122,7 @@ p {
   justify-content: space-evenly;
   align-items: center;
   width: 75%;
-
+  
 }
 
 .box {
@@ -101,7 +132,7 @@ p {
   width: 400px;
   height: 50px;
   margin-bottom: 20px;
-
+  
 }
 
 
@@ -111,6 +142,24 @@ p {
 }
 
 
+.container-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  background-color: blue;
+  background: rgb(18, 18, 18);
+
+
+}
+
+.elemento {
+width: 250px;
+height: 250px;
+background-color: wheat;
+border: 10px solid rgb(18, 18, 18);
+
+}
 /*--------------------------------------INICIO DA PARTE FOOTER--------------------------------------------------------------------*/
 footer {
   background-color: rgb(32, 32, 32);
