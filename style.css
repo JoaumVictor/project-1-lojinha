@@ -1,16 +1,211 @@
-* {
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* font-family: "Roboto", sans-serif;       essa fonte é meio padrãozinha*/
+/* font-family: "Rajdhani", sans-serif;     essa fonte é mais magrinha*/
+</style>* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.container-default {
+body {
+  padding: 0%;
+  margin: 0%;
+  background: rgb(18, 18, 18);
+}
+
+main {
+
+  height: 75%;
   width: 100%;
-  min-height: 20vh;
-  display: flex;
+}
+
+
+
+.container-top {
   justify-content: center;
   align-items: center;
+  background-color: rgb(24, 24, 28);
+  border: solid 1px rgb(24, 24, 28);
+  height: 71px;
+  width: 100%
 }
+
+#iconetop {
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  left: 140px;
+  bottom: 860px;
+  font-family: Inter, sans-serif;
+  position: fixed;
+
+
+}
+
+
+#iconetop {
+  position: absolute;
+  height: 32px;
+  width: 54px;
+  background-image: -moz-linear-gradient(color rgb(18, 18, 18));
+  display: flex;
+  top: 20px;
+  left: 126px;
+}
+
+#iconeesquerdo {
+  position: absolute;
+  background-image: -moz-linear-gradient(color rgb(18, 18, 18));
+  right: 200px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  background: color rgb(18, 18, 18);
+
+}
+
+#iconeperfil {
+  position: absolute;
+  right: 138px;
+  top: 15px;
+}
+
+#iconeglobo {
+  position: absolute;
+  right: 190px;
+  top: 22px;
+}
+
+#iconeepic {
+  position: absolute;
+  left: 21px;
+  top: 13px;
+
+}
+
+#seta {
+  position: absolute;
+  left: 50px;
+}
+
+#wrapper {
+  background-color: rgb(48, 48, 52);
+  width: 2px;
+  height: 32px;
+  left: 200px;
+  margin-bottom: 2px;
+}
+
+input {
+  position: absolute;
+  display: flex;
+  left: 200px;
+  bottom: 787px;
+  border-radius: 10px;
+  height: 25px;
+  width: 180px;
+  background-color: rgb(32, 32, 32);
+  border-radius: 0.8rem;
+  border: solid 10px;
+}
+
+svg {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: white;
+  opacity: ;
+  position: absolute;
+  font-size: 10px;
+}
+
+
+
+#download {
+  position: absolute;
+  left: 1782px;
+  top: 1px;
+  font-size: 15px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  background-color: rgb(38, 187, 255);
+  font-family: roboto, sans-serif;
+  cursor: pointer;
+  color: rgb(27, 32, 65);
+  border: solid rgb(38, 187, 255) 8px
+}
+
+#suporte {
+  position: absolute;
+  left: 215px;
+  top: 13px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  color: rgb(152, 152, 153);
+}
+
+#distribuir {
+  position: absolute;
+  left: 298px;
+  top: 13px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+  color: rgb(152, 152, 153);
+}
+
+#descobrir {
+  color: white;
+  position: absolute;
+  left: 440px;
+  bottom: 780px;
+  font-family: roboto, sans-serif;
+  font-size: 15px;
+
+}
+
+#navegar {
+  position: absolute;
+  color: rgb(152, 152, 153);
+  font-size: 15px;
+  left: 550px;
+  font-family: roboto, sans-serif;
+  bottom: 785px;
+
+
+}
+
+#novidades {
+  color: rgb(18, 18, 18);
+  left: 600px;
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+
+  z-index: 1000;
+
+}
+
+#container-box {
+  position: fixed;
+  /* Fixa a posição do elemento */
+  top: 100px;
+  /* Distância do topo da viewport */
+  left: 20px;
+  /* Distância da esquerda da viewport */
+  width: 20px;
+  /* Largura do elemento */
+  padding: 20px;
+  /* Espaçamento interno */
+  border: 5px solid red;
+  /* Borda fixa */
+  background-color: white;
+  /* Fundo branco */
+  z-index: 1000;
+  /* Garante que o elemento fique acima de outros */
+}
+
+
 
 p {
   font-size: 22px;
@@ -19,28 +214,225 @@ p {
 .container-banner-1 {
   display: flex;
   align-items: center;
-  padding: 40px;
+  padding: 100px;
   justify-content: center;
   flex-direction: column;
+
+
 }
 
 .box-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  width: 75%;
+
 }
 
 .box {
-  background-color: #d3d3d3;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 400px;
-  height: 250px;
+  height: 50px;
+  margin-bottom: 20px;
+
 }
+
 
 .image {
   width: 100px;
   height: 100px;
 }
+
+
+.container-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  background-color: blue;
+  background: rgb(18, 18, 18);
+
+
+}
+
+.elemento {
+  width: 250px;
+  height: 250px;
+  background-color: wheat;
+  border: 10px solid rgb(18, 18, 18);
+
+}
+
+/*--------------------------------------INICIO DA PARTE FOOTER--------------------------------------------------------------------*/
+footer {
+  background-color: rgb(32, 32, 32);
+  height: 650px;
+  padding: 1px;
+}
+
+#footerPai {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 46px 66px;
+}
+
+#logoImgs {
+  display: flex;
+}
+
+.footerLogosHere {
+  margin: 0px 4px;
+  opacity: 0.8;
+  transition: background-color 0.5s ease;
+  height: 30px;
+}
+
+.footerLogosHere:hover {
+  background-color: blue;
+  transform: scale(1.2);
+}
+
+#goToTop {
+  margin-left: auto;
+  align-items: flex-start;
+  position: relative;
+  bottom: 3px;
+}
+
+#goToTop:hover {
+  transform: scale(1.2);
+  box-shadow: 4px 4px 10px rgb(43, 8, 8);
+}
+
+#h3Recursos {
+  /*H3 AQUI */
+  padding-top: 11px;
+  margin-left: 5px;
+  opacity: 0.3;
+}
+
+#recursosPai {
+  margin: -10px 6px;
+  display: flex;
+  flex-flow: row wrap;
+  font-family: "Rajdhani", sans-serif;
+}
+
+#recursosPai a {
+  text-decoration: none;
+  color: rgb(223, 223, 223);
+  transition: color 0.3s;
+}
+
+#recursosPai h3 {
+  opacity: 0.3;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+#recursosPai ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.recursosBloquinhos {
+  font-size: 14px;
+}
+
+.recursosBloquinhos li {
+  padding: 4px 27px;
+  margin-left: -28px;
+}
+
+#recursosPai a:hover {
+  color: rgb(45, 112, 255);
+}
+
+/* FeitopelaEpicGames vai começar à baixo */
+#FeitopelaEpicGamesH3 {
+  padding-top: 28px;
+  margin-left: 5px;
+  opacity: 0.3;
+}
+
+.recursosBloquinhosDif {
+  font-size: 14px;
+}
+
+.recursosBloquinhosDif li {
+  padding: 5px 41px;
+  margin-left: -42px;
+}
+
+#hrHere {
+  opacity: 0.1;
+  margin-top: 31px;
+  margin-bottom: 24px;
+  width: 99%;
+}
+
+#CopyHere {
+  margin-left: 6px;
+  display: flex;
+  text-align: start;
+  max-width: 886px;
+}
+
+#CopyHere p {
+  opacity: 0.7;
+  font-size: 11px;
+  line-height: 24px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+#termosEPolitica {
+  margin-top: 48px;
+  margin-left: 6px;
+}
+
+#termosEPolitica ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#termosEPolitica li {
+  display: inline;
+  list-style-type: none;
+  flex-grow: 0;
+}
+
+#termosEPolitica a {
+  text-decoration: none;
+  color: rgb(223, 223, 223);
+  font-size: 12px;
+  transition: color 0.4s;
+}
+
+#termosEPolitica a:hover {
+  color: rgb(45, 112, 255);
+}
+
+@media only screen and (max-width: 1025px) {
+  footer {
+    height: 700px;
+  }
+
+  @media only screen and (max-width: 900px) {
+    footer {
+      height: 800px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      footer {
+        height: 900px;
+      }
+
+      @media only screen and (max-width: 550px) {
+        footer {
+          height: 1000px;
+        }
+
+        /*----------------------------FIM DA PARTE FOOTER-------------------------------------------------------------------------------*/
