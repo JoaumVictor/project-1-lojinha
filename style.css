@@ -1,9 +1,7 @@
-<style>
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-</style>
+<style>@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-* {
+</style>* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,13 +20,13 @@ main {
 
 .flex {
   display: flex;
-  gap: 20px;
   border: 3px solid white;
 }
 
+
 .container-top {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(24, 24, 28);
   border: solid 1px rgb(24, 24, 28);
@@ -36,19 +34,27 @@ main {
   width: 100%;
 }
 
-#iconetop {
-  color: white;
-  font-size: 40px;
-  bottom: 860px;
-  font-family: Inter, sans-serif;
+.header-navigation-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#iconetop {
-  height: 32px;
-  width: 54px;
-  background-image: -moz-linear-gradient(color rgb(18, 18, 18));
-  display: flex;
+#icone-epic {
+  padding: 0px 16px;
 }
+
+#bar {
+  background-color: rgb(48, 48, 52);
+  height: 32px;
+  width: 2px;
+  margin: 0px 10px;
+}
+
+#icone-store {
+  padding: 0px 16px;
+}
+
 
 #iconeesquerdo {
   background-image: -moz-linear-gradient(color rgb(18, 18, 18));
@@ -60,10 +66,8 @@ main {
 
 #wrapper {
   background-color: rgb(48, 48, 52);
-  width: 2px;
-  height: 32px;
-  left: 200px;
   margin-bottom: 2px;
+
 }
 
 input {
@@ -95,17 +99,21 @@ svg {
   border: solid rgb(38, 187, 255) 8px;
 }
 
-#suporte {
+.header-link {
   font-size: 15px;
   font-family: roboto, sans-serif;
   color: rgb(152, 152, 153);
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-#distribuir {
-  font-size: 15px;
-  font-family: roboto, sans-serif;
-  color: rgb(152, 152, 153);
+.header-link:hover {
+  color: white;
+  background-color: rgb(133, 133, 133);
 }
+
+
 
 #descobrir {
   color: white;
