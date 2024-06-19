@@ -44,6 +44,7 @@ main {
   padding: 0px 16px;
 }
 
+
 #bar {
   background-color: rgb(48, 48, 52);
   height: 32px;
@@ -82,23 +83,26 @@ main {
   padding-left: 0px;
 }
 
-input {
+#container-pesquisa {
   display: flex;
-  border-radius: 10px;
-  height: 25px;
-  width: 180px;
-  background-color: rgb(32, 32, 32);
-  border-radius: 0.8rem;
-  border: solid 10px;
+  justify-content: left;
+  align-items: center;
+  height: 100px;
+  padding-left: 220px;
 }
 
-svg {
-  height: 30px;
-  width: 30px;
-  border-radius: 100%;
-  background-color: white;
-  font-size: 10px;
+input {
+  display: flex;
+  height: 24px;
+  width: 180px;
+  background-color: rgb(32, 32, 32);
+  border: 0px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  padding: 8px;
+
 }
+
 
 #download {
   font-size: 15px;
@@ -108,6 +112,10 @@ svg {
   border: solid rgb(38, 187, 255) 8px;
   padding-left: 10px;
   height: 32px;
+}
+
+.icone-pesquisa {
+  padding-left: 100px;
 }
 
 .header-link {
@@ -122,6 +130,7 @@ svg {
 .header-link:hover {
   color: white;
   background-color: rgb(133, 133, 133);
+  cursor: pointer;
 }
 
 
@@ -130,6 +139,7 @@ svg {
   color: white;
   font-family: roboto, sans-serif;
   font-size: 15px;
+  padding-left: 26px;
 }
 
 #navegar {
@@ -137,14 +147,20 @@ svg {
   font-size: 15px;
   font-family: roboto, sans-serif;
   bottom: 785px;
+  padding-left: 26px;
 }
 
-#novidades {
-  color: rgb(18, 18, 18);
-  left: 600px;
-  font-size: 15px;
+#main-link {
   font-family: roboto, sans-serif;
-  z-index: 1000;
+  padding-left: 26px;
+  color: rgb(152, 152, 153);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#main-link:hover {
+  color: white;
+  font-size: 15px;
 }
 
 #container-box {
@@ -166,6 +182,7 @@ p {
 
 #container-pesquisa {
   display: flex;
+
 }
 
 .container-banner-1 {
