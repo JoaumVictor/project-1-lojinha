@@ -261,19 +261,41 @@ input {
 
 .container-product {
   display: flex;
-  align-items: center;
+  align-items: top;
   flex-direction: row;
   justify-content: center;
-  padding: 50px;
+  padding: 180px 40px;
   background-color: blue;
   background: rgb(18, 18, 18);
+  gap: 50px;
 }
 
-.elemento {
+.game-card {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
   width: 250px;
-  height: 250px;
-  background-color: wheat;
   border: 10px solid rgb(18, 18, 18);
+  gap: 8px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-titulo {
+  font-size: 14px;
+  color: rgb(152, 152, 152);
+  width: 100%;
+  text-align: start;
+}
+
+.card-text {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  text-align: start;
 }
 
 /*--------------------------------------INICIO DA PARTE FOOTER--------------------------------------------------------------------*/
