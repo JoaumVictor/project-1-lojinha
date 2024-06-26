@@ -171,11 +171,10 @@ input {
 }
 
 .header-link {
-  font-size: 15px;
+  font-size: 14px;
   font-family: roboto, sans-serif;
   color: rgb(152, 152, 153);
   padding: 6px 14px;
-  border-radius: 8px;
   cursor: pointer;
 }
 
