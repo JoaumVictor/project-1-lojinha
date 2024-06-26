@@ -174,20 +174,14 @@ input {
   font-size: 14px;
   font-family: roboto, sans-serif;
   color: rgb(152, 152, 153);
-  padding: 6px 14px;
+  padding: 6px !important;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 
 .header-link:hover {
   color: white;
   background-color: rgb(133, 133, 133);
-}
-
-#descobrir {
-  color: white;
-  font-family: roboto, sans-serif;
-  font-size: 15px;
-  padding-left: 26px;
 }
 
 #navegar {
@@ -198,15 +192,20 @@ input {
   padding-left: 26px;
 }
 
-#main-link {
+#search-text {
+  outline: none;
+  color: white;
+}
+
+.main-link {
   font-family: roboto, sans-serif;
-  padding-left: 26px;
+  padding-left: 26px !important;
   color: rgb(152, 152, 153);
   font-size: 15px;
   cursor: pointer;
 }
 
-#main-link:hover {
+.main-link:hover {
   color: white;
   font-size: 15px;
 }
